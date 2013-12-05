@@ -1,0 +1,29 @@
+{
+    "name": "ob/silex-skeleton",
+    "description": "My starting point for Silex projects",
+    "type": "project",
+    "keywords": ["silex", "skeleton"],
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Marc Aubé",
+            "homepage": "http://marcaube.ca"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3",
+        "silex/silex": "~1.1",
+        "symfony/debug": "~2.3",
+        "silex/web-profiler": "1.0.*",
+        "symfony/monolog-bridge": "~2.3",
+        "symfony/twig-bridge": "~2.3"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
