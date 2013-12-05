@@ -8,8 +8,7 @@ You could even drop-in properly decoupled Symfony2 Bundles, or easily switch to 
 
 ## Usage
 
-Add your PSR compliant code in `src/`, register the namespaces in `composer.json`. Configurations are in `app/config/`,
-your ronting is in there too.
+Add your PSR compliant code in `src/`, configurations are in `app/config/` and the routing is in there too.
 
 
 ## Contributing
@@ -25,7 +24,8 @@ $ phpunit -c app/
 
 
 ## Credits
-- Fabien Potention for his [Silex-Skeleton](https://github.com/silexphp/Silex-Skeleton)
+
+- Fabien Potencier for his [Silex-Skeleton](https://github.com/silexphp/Silex-Skeleton)
 - Matthias Noback for his blog post on [getting your Silex project structure right](http://php-and-symfony.matthiasnoback.nl/2012/01/silex-getting-your-project-structure-right/)
 
 
