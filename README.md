@@ -11,6 +11,14 @@ You could even drop-in properly decoupled Symfony2 Bundles, or easily switch to 
 Add your PSR compliant code in `src/`, configurations are in `app/config/` and the routing is in there too.
 
 
+## Installation
+
+```bash
+$ curl -sS https://getcomposer.org/installer | php
+$ php composer.phar create-project ob/silex-skeleton=dev-master
+```
+
+
 ## Contributing
 
 See [CONTRIBUTING.md]() file.
