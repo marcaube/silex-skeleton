@@ -12,6 +12,8 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
     exit('You are not allowed to access this file. Check '.basename(__FILE__).' for more information.');
 }
 
+putenv("APP_ENV=dev");
+
 $app = require_once __DIR__ . '/../app/app.php';
 
 Debug::enable();

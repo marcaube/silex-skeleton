@@ -18,7 +18,9 @@
         "symfony/debug": "~2.3",
         "silex/web-profiler": "dev-master",
         "symfony/monolog-bridge": "~2.3",
-        "symfony/twig-bridge": "~2.3"
+        "symfony/twig-bridge": "~2.3",
+        "igorw/config-service-provider": "~1.2",
+        "symfony/yaml": "~2.1"
     },
 
     "autoload": {
